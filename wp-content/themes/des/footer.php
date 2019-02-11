@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row row-pb-md">
             <div class="col-lg-3 colorlib-widget">
-                	<h4>Lawfirm</h4>
+                	<h4>Notary Consultant</h4>
                 <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.
                     Eos cumque dicta adipisci architecto culpa amet.</p>
             </div>
@@ -43,11 +43,11 @@
         </div>
         <div class="row copyright">
             <div class="col-lg-12 text-center">
-                <p>	<small class="block">&#xA9; 2018 LawFirm. All Rights Reserved. Created by <a href="https://colorlib.com/" target="_blank">Colorlib</a></small> 
+                <!-- <p>	<small class="block">&#xA9; 2018 LawFirm. All Rights Reserved. Created by <a href="https://colorlib.com/" target="_blank">Colorlib</a></small> 
                     <small
                     class="block">Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a>
                         </small>
-                </p>
+                </p> -->
                 <p>
                     <ul class="colorlib-social-icons">
                         <li><a href="#"><i class="icon-twitter"></i></a>
@@ -70,28 +70,23 @@
 		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
 	</div>
 	
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bs4/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Stellar Parallax -->
-	<script src="js/jquery.stellar.min.js"></script>
-	<!-- Carousel -->
-	<script src="js/owl.carousel.min.js"></script>
-	<!-- Flexslider -->
-	<script src="js/jquery.flexslider-min.js"></script>
-	<!-- countTo -->
-	<script src="js/jquery.countTo.js"></script>
-	<!-- Magnific Popup -->
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/magnific-popup-options.js"></script>
-	<!-- Main -->
-	<script src="js/main.js"></script>
+
+			<!-- /footer -->
+
+		</div>
+		<!-- /wrapper -->
+
+		<?php wp_footer(); ?>
+
+		<!-- analytics -->
+		<script>
+		(function(f,i,r,e,s,h,l){i['GoogleAnalyticsObject']=s;f[s]=f[s]||function(){
+		(f[s].q=f[s].q||[]).push(arguments)},f[s].l=1*new Date();h=i.createElement(r),
+		l=i.getElementsByTagName(r)[0];h.async=1;h.src=e;l.parentNode.insertBefore(h,l)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-XXXXXXXX-XX', 'yourdomain.com');
+		ga('send', 'pageview');
+		</script>
 
 	</body>
-</html>			<!-- footer -->
-			
+</html>

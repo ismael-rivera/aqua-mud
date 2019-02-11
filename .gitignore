@@ -1,6 +1,11 @@
 w0/
-*.scss
+*.scssc
 *.log
+*.jpg
+*.zip
+*.gzip
+*.rar
+des/
 des/languages/
 wp-content/themes/des/languages/
 wp-config.php
